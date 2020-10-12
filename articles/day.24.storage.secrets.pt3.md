@@ -2,7 +2,13 @@
 
 In Days 10, 12, and 15, we worked with the same ARM deployment scenario, focused on Azure API Management, as an example of a more complex Infrastructure-as-Code Scenario. In Days 22 and 23, we explored using blob storage to host deployment artifacts that could not be easily encapsulated in our ARM template. In this installment, we are going to look at provisioning that blob storage and enabling access, all within an ARM template.
 
-Our ARM template 1) Creates blob storage 2) A SAS key with the access we define and 3) Outputs container and SAS key details we can use later in the pipeline. For readability, I am not going to embed the entire ARM template in the article, but give you a link to the full template in the repo [HERE](https://github.com/starkfell/100DaysOfIaC/blob/master/resources/storage_sas_out.json). Just open it on your second screen so you can reference as you follow along.
+Our ARM template includes :
+
+1. Create blob storage
+2. A SAS key with the access we define and 
+3. Outputs container and SAS key details we can use later in the pipeline.
+
+For readability, I am not going to embed the entire ARM template in the article, but give you a link to the full template in the repo [HERE](https://github.com/starkfell/100DaysOfIaC/blob/master/resources/storage_sas_out.json). Just open it on your second screen so you can reference as you follow along.
 
 **In this article:**
 
@@ -11,6 +17,10 @@ Our ARM template 1) Creates blob storage 2) A SAS key with the access we define 
 [ARM Outputs](#arm-outputs) </br>
 [Deployment Outputs](#deployment-outputs) </br>
 [Next Steps](#next-steps) </br>
+
+***
+SPONSOR: Need to stop and start your development VMs on a schedule? The Azure Resource Scheduler let's you schedule up to 10 Azure VMs for FREE! Learn more [HERE](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/lumagatena.resourcescheduler?tab=Overview)
+***
 
 ## Setting Permissions
 
