@@ -1,9 +1,12 @@
 # 100 Days of IaC in Azure
 
 Below are the articles, with the latest available at the top. Hit the :watch: and :star: buttons on this [GitHub repo](https://github.com/starkfell/100DaysOfIaC/) to keep up with latest updates. Meet the people behind this series on our [whois page](https://github.com/starkfell/100DaysOfIaC/blob/master/whois.md).
-day.104.secure.azure.key.vault.md
+
 | Subject | Article Link  |
 |---------|---------------|
+| Azure Bicep | [Day 106 - Azure Bicep: Up and running in 10 minutes](articles/day.106.bicep.in.10.min.md)|
+| Petri DevOps Day | [YAML Pipelines: Up and running in an hour](articles/petri/yaml.in.one.hour.md)|
+| Petri DevOps Day | [Kubernetes: Up and running in an hour](articles/petri/k8s.in.one.hour.md)|
 | Azure Storage Security | [Day 105 - Azure Storage Security End-to-End](articles/day.105.secure.azure.storage.md)|
 | Key Vault Security | [Day 104 - Azure Key Vault Security and Automation (in plain English)](articles/day.104.secure.azure.key.vault.md)|
 | Inside Azure SQL | [Day 103 - Azure SQL Deployment and Security (Part 2)](articles/day.103.sql.deploy.and.secure.pt2.md)|
